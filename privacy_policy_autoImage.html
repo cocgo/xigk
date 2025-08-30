@@ -43,92 +43,1080 @@
             font-style: italic;
             margin-bottom: 30px;
         }
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .language-selector select {
+            padding: 5px 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
-    <h1>AutoImage Privacy Policy</h1>
-    
-    <p class="last-updated">Last updated: 2025-08-25</p>
-    
-    <h2>AutoImage Introduction</h2>
-    <p>AutoImage respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our services, websites, applications, and products (collectively, the "Services").</p>
-    <p>By accessing or using our Services, you consent to the collection, use, and disclosure of your information as described in this Privacy Policy.</p>
-    
-    <h2>Information We Collect</h2>
-    
-    <h3>Personal Information</h3>
-    <p>We may collect personally identifiable information that can be used to contact or identify you, including:</p>
-    <ul>
-        <li>Name: Xigk</li>
-        <li>Email address: 521401@qq.com</li>
-        <li>Address: China Guangzhou tianhequ haizhuguangc no. 18</li>
-    </ul>
-    
-    <h3>Non-Personal Information</h3>
-    <p>We may also collect non-personally identifiable information including:</p>
-    <ul>
-        <li>Browser type and version</li>
-        <li>Operating system</li>
-        <li>Referring URLs</li>
-        <li>IP addresses</li>
-        <li>Pages visited</li>
-        <li>Time and date of visits</li>
-    </ul>
-    
-    <h3>Cookies and Tracking Technologies</h3>
-    <p>We use cookies and similar tracking technologies to track activity on our Services and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p>
-    
-    <h2>How We Use Your Information</h2>
-    <p>We use the information we collect for various purposes:</p>
-    <ul>
-        <li>To provide and maintain our Services</li>
-        <li>To notify you about changes to our Services</li>
-        <li>To allow you to participate in interactive features</li>
-        <li>To provide customer support</li>
-        <li>To gather analysis or valuable information to improve our Services</li>
-        <li>To monitor usage of our Services</li>
-        <li>To detect, prevent, and address technical issues</li>
-        <li>To fulfill any other purpose for which you provide information</li>
-    </ul>
-    
-    <h2>Information Sharing and Disclosure</h2>
-    <p>We may share your information in the following situations:</p>
-    <ul>
-        <li>With service providers to monitor and analyze the use of our Services</li>
-        <li>For business transfers, such as a merger or acquisition</li>
-        <li>With your consent</li>
-        <li>To comply with legal obligations</li>
-        <li>To protect and defend our rights and property</li>
-        <li>To prevent or investigate wrongdoing</li>
-    </ul>
-    
-    <h2>Data Security</h2>
-    <p>We implement appropriate security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
-    
-    <h2>Data Retention</h2>
-    <p>We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or permitted by law.</p>
-    
-    <h2>Your Rights</h2>
-    <p>Depending on your location, you may have the following rights regarding your personal information:</p>
-    <ul>
-        <li>The right to access, update, or delete your information</li>
-        <li>The right to rectification</li>
-        <li>The right to object to processing</li>
-        <li>The right to data portability</li>
-        <li>The right to withdraw consent</li>
-    </ul>
-    
-    <h2>Children's Privacy</h2>
-    <p>Our Services are not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete such information.</p>
-    
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
-    
-    <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <div class="contact-info">
-        <p>Email: 521401@qq.com</p>
-        <p>Address: China Guangzhou tianhequ haizhuguangc no. 18</p>
+    <div class="language-selector">
+        <select id="language-switcher" onchange="changeLanguage(this.value)">
+            <option value="en" selected>English</option>
+            <option value="zh-Hans">简体中文</option>
+            <option value="zh-Hant">繁體中文</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="ru">Русский</option>
+            <option value="pt">Português</option>
+            <option value="it">Italiano</option>
+        </select>
     </div>
+
+    <!-- English version -->
+    <div id="en" class="lang-content">
+        <h1>AutoImage Privacy Policy</h1>
+        
+        <p class="last-updated">Last updated: 2025-08-25</p>
+        
+        <h2>AutoImage Introduction</h2>
+        <p>AutoImage respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our services, websites, applications, and products (collectively, the "Services").</p>
+        <p>By accessing or using our Services, you consent to the collection, use, and disclosure of your information as described in this Privacy Policy.</p>
+        
+        <h2>Information We Collect</h2>
+        
+        <h3>Personal Information</h3>
+        <p>We may collect personally identifiable information that can be used to contact or identify you, including:</p>
+        <ul>
+            <li>Name: Xigk</li>
+            <li>Email address: 521401@qq.com</li>
+            <li>Address: China Guangzhou tianhequ haizhuguangc no. 18</li>
+        </ul>
+        
+        <h3>Non-Personal Information</h3>
+        <p>We may also collect non-personally identifiable information including:</p>
+        <ul>
+            <li>Browser type and version</li>
+            <li>Operating system</li>
+            <li>Referring URLs</li>
+            <li>IP addresses</li>
+            <li>Pages visited</li>
+            <li>Time and date of visits</li>
+        </ul>
+        
+        <h3>Cookies and Tracking Technologies</h3>
+        <p>We use cookies and similar tracking technologies to track activity on our Services and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p>
+        
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect for various purposes:</p>
+        <ul>
+            <li>To provide and maintain our Services</li>
+            <li>To notify you about changes to our Services</li>
+            <li>To allow you to participate in interactive features</li>
+            <li>To provide customer support</li>
+            <li>To gather analysis or valuable information to improve our Services</li>
+            <li>To monitor usage of our Services</li>
+            <li>To detect, prevent, and address technical issues</li>
+            <li>To fulfill any other purpose for which you provide information</li>
+        </ul>
+        
+        <h2>Information Sharing and Disclosure</h2>
+        <p>We may share your information in the following situations:</p>
+        <ul>
+            <li>With service providers to monitor and analyze the use of our Services</li>
+            <li>For business transfers, such as a merger or acquisition</li>
+            <li>With your consent</li>
+            <li>To comply with legal obligations</li>
+            <li>To protect and defend our rights and property</li>
+            <li>To prevent or investigate wrongdoing</li>
+        </ul>
+        
+        <h2>Data Security</h2>
+        <p>We implement appropriate security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
+        
+        <h2>Data Retention</h2>
+        <p>We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or permitted by law.</p>
+        
+        <h2>Your Rights</h2>
+        <p>Depending on your location, you may have the following rights regarding your personal information:</p>
+        <ul>
+            <li>The right to access, update, or delete your information</li>
+            <li>The right to rectification</li>
+            <li>The right to object to processing</li>
+            <li>The right to data portability</li>
+            <li>The right to withdraw consent</li>
+        </ul>
+        
+        <h2>Children's Privacy</h2>
+        <p>Our Services are not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete such information.</p>
+        
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+        
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <div class="contact-info">
+            <p>Email: 521401@qq.com</p>
+            <p>Address: China Guangzhou tianhequ haizhuguangc no. 18</p>
+        </div>
+    </div>
+
+    <!-- Simplified Chinese version -->
+    <div id="zh-Hans" class="lang-content hidden">
+        <h1>AutoImage 隐私政策</h1>
+        
+        <p class="last-updated">最后更新日期：2025-08-25</p>
+        
+        <h2>AutoImage 简介</h2>
+        <p>AutoImage 尊重您的隐私，并致力于保护您的个人信息。本隐私政策解释了当您使用我们的服务、网站、应用程序和产品（统称为"服务"）时，我们如何收集、使用、披露和保护您的信息。</p>
+        <p>通过访问或使用我们的服务，您同意本隐私政策中所述的信息收集、使用和披露。</p>
+        
+        <h2>我们收集的信息</h2>
+        
+        <h3>个人信息</h3>
+        <p>我们可能会收集可用于联系或识别您的个人身份信息，包括：</p>
+        <ul>
+            <li>姓名：Xigk</li>
+            <li>电子邮件地址：521401@qq.com</li>
+            <li>地址：中国广州天河区海珠广场18号</li>
+        </ul>
+        
+        <h3>非个人信息</h3>
+        <p>我们还可能收集无法识别个人身份的信息，包括：</p>
+        <ul>
+            <li>浏览器类型和版本</li>
+            <li>操作系统</li>
+            <li>引用URL</li>
+            <li>IP地址</li>
+            <li>访问页面</li>
+            <li>访问时间和日期</li>
+        </ul>
+        
+        <h3>Cookie和跟踪技术</h3>
+        <p>我们使用Cookie和类似的跟踪技术来跟踪服务上的活动并存储某些信息。您可以指示浏览器拒绝所有Cookie或在发送Cookie时提示。</p>
+        
+        <h2>我们如何使用您的信息</h2>
+        <p>我们将收集的信息用于各种目的：</p>
+        <ul>
+            <li>提供和维护我们的服务</li>
+            <li>通知您有关我们服务的更改</li>
+            <li>允许您参与互动功能</li>
+            <li>提供客户支持</li>
+            <li>收集分析或有价值的信息以改进我们的服务</li>
+            <li>监控我们服务的使用情况</li>
+            <li>检测、预防和解决技术问题</li>
+            <li>履行您提供信息的任何其他目的</li>
+        </ul>
+        
+        <h2>信息共享和披露</h2>
+        <p>我们可能在以下情况下共享您的信息：</p>
+        <ul>
+            <li>与服务提供商共享以监控和分析我们服务的使用情况</li>
+            <li>用于业务转让，如合并或收购</li>
+            <li>经您同意</li>
+            <li>为遵守法律义务</li>
+            <li>为保护和捍卫我们的权利和财产</li>
+            <li>为防止或调查不当行为</li>
+        </ul>
+        
+        <h2>数据安全</h2>
+        <p>我们实施适当的安全措施，防止您的个人信息被未经授权的访问、更改、披露或销毁。但是，通过互联网传输或电子存储的方法并非100%安全。</p>
+        
+        <h2>数据保留</h2>
+        <p>我们仅在实现本隐私政策中列出的目的所需的时间内保留您的个人信息，除非法律要求或允许更长的保留期。</p>
+        
+        <h2>您的权利</h2>
+        <p>根据您的所在地，您可能对您的个人信息拥有以下权利：</p>
+        <ul>
+            <li>访问、更新或删除您的信息的权利</li>
+            <li>更正权</li>
+            <li>反对处理的权利</li>
+            <li>数据可携权</li>
+            <li>撤回同意的权利</li>
+        </ul>
+        
+        <h2>儿童隐私</h2>
+        <p>我们的服务不适用于13岁以下的儿童。我们不会故意收集13岁以下儿童的个人信息。如果我们发现我们收集了13岁以下儿童的个人信息，我们将采取措施删除此类信息。</p>
+        
+        <h2>本隐私政策的变更</h2>
+        <p>我们可能会不时更新我们的隐私政策。我们将通过在此页面上发布新的隐私政策并更新"最后更新"日期来通知您任何更改。</p>
+        
+        <h2>联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p>
+        <div class="contact-info">
+            <p>电子邮件：521401@qq.com</p>
+            <p>地址：中国广州天河区海珠广场18号</p>
+        </div>
+    </div>
+
+    <!-- Traditional Chinese version -->
+    <div id="zh-Hant" class="lang-content hidden">
+        <h1>AutoImage 隱私政策</h1>
+        
+        <p class="last-updated">最後更新日期：2025-08-25</p>
+        
+        <h2>AutoImage 簡介</h2>
+        <p>AutoImage 尊重您的隱私，並致力於保護您的個人信息。本隱私政策解釋了當您使用我們的服務、網站、應用程序和產品（統稱為「服務」）時，我們如何收集、使用、披露和保護您的信息。</p>
+        <p>通過訪問或使用我們的服務，您同意本隱私政策中所述的信息收集、使用和披露。</p>
+        
+        <h2>我們收集的信息</h2>
+        
+        <h3>個人信息</h3>
+        <p>我們可能會收集可用於聯繫或識別您的個人身份信息，包括：</p>
+        <ul>
+            <li>姓名：Xigk</li>
+            <li>電子郵件地址：521401@qq.com</li>
+            <li>地址：中國廣州天河區海珠廣場18號</li>
+        </ul>
+        
+        <h3>非個人信息</h3>
+        <p>我們還可能收集無法識別個人身份的信息，包括：</p>
+        <ul>
+            <li>瀏覽器類型和版本</li>
+            <li>操作系統</li>
+            <li>引用URL</li>
+            <li>IP地址</li>
+            <li>訪問頁面</li>
+            <li>訪問時間和日期</li>
+        </ul>
+        
+        <h3>Cookie和跟踪技術</h3>
+        <p>我們使用Cookie和類似的跟踪技術來跟踪服務上的活動並存儲某些信息。您可以指示瀏覽器拒絕所有Cookie或在發送Cookie時提示。</p>
+        
+        <h2>我們如何使用您的信息</h2>
+        <p>我們將收集的信息用於各種目的：</p>
+        <ul>
+            <li>提供和維護我們的服務</li>
+            <li>通知您有關我們服務的更改</li>
+            <li>允許您參與互動功能</li>
+            <li>提供客戶支持</li>
+            <li>收集分析或有價值的信息以改進我們的服務</li>
+            <li>監控我們服務的使用情況</li>
+            <li>檢測、預防和解決技術問題</li>
+            <li>履行您提供信息的任何其他目的</li>
+        </ul>
+        
+        <h2>信息共享和披露</h2>
+        <p>我們可能在以下情況下共享您的信息：</p>
+        <ul>
+            <li>與服務提供商共享以監控和分析我們服務的使用情況</li>
+            <li>用於業務轉讓，如合併或收購</li>
+            <li>經您同意</li>
+            <li>為遵守法律義務</li>
+            <li>為保護和捍衛我們的權利和財產</li>
+            <li>為防止或調查不當行為</li>
+        </ul>
+        
+        <h2>數據安全</h2>
+        <p>我們實施適當的安全措施，防止您的個人信息被未經授權的訪問、更改、披露或銷毀。但是，通過互聯網傳輸或電子存儲的方法並非100%安全。</p>
+        
+        <h2>數據保留</h2>
+        <p>我們僅在實現本隱私政策中列出的目的所需的時間內保留您的個人信息，除非法律要求或允許更長的保留期。</p>
+        
+        <h2>您的權利</h2>
+        <p>根據您的所在地，您可能對您的個人信息擁有以下權利：</p>
+        <ul>
+            <li>訪問、更新或刪除您的信息的權利</li>
+            <li>更正權</li>
+            <li>反對處理的權利</li>
+            <li>數據可攜權</li>
+            <li>撤回同意的權利</li>
+        </ul>
+        
+        <h2>兒童隱私</h2>
+        <p>我們的服務不適用於13歲以下的兒童。我們不會故意收集13歲以下兒童的個人信息。如果我們發現我們收集了13歲以下兒童的個人信息，我們將採取措施刪除此類信息。</p>
+        
+        <h2>本隱私政策的變更</h2>
+        <p>我們可能會不時更新我們的隱私政策。我們將通過在此頁面上發布新的隱私政策並更新「最後更新」日期來通知您任何更改。</p>
+        
+        <h2>聯繫我們</h2>
+        <p>如果您對本隱私政策有任何疑問，請通過以下方式聯繫我們：</p>
+        <div class="contact-info">
+            <p>電子郵件：521401@qq.com</p>
+            <p>地址：中國廣州天河區海珠廣場18號</p>
+        </div>
+    </div>
+
+    <!-- Japanese version -->
+    <div id="ja" class="lang-content hidden">
+        <h1>AutoImage プライバシーポリシー</h1>
+        
+        <p class="last-updated">最終更新日：2025-08-25</p>
+        
+        <h2>AutoImage について</h2>
+        <p>AutoImageは、お客様のプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーは、当社のサービス、ウェブサイト、アプリケーション、および製品（総称して「サービス」）をご利用いただく際に、当社がお客様の情報を収集、使用、開示、保護する方法について説明するものです。</p>
+        <p>当社のサービスにアクセスまたはご利用いただくことにより、本プライバシーポリシーに記載された情報の収集、使用、および開示に同意したものとみなされます。</p>
+        
+        <h2>当社が収集する情報</h2>
+        
+        <h3>個人情報</h3>
+        <p>当社は、お客様に連絡したり、お客様を識別したりするために使用できる個人を特定できる情報を収集することがあります。これには、以下の情報が含まれます：</p>
+        <ul>
+            <li>氏名：Xigk</li>
+            <li>メールアドレス：521401@qq.com</li>
+            <li>住所：中国広州市天河区海珠広場18番地</li>
+        </ul>
+        
+        <h3>非個人情報</h3>
+        <p>当社は、個人を特定できない情報を収集することもあります。これには、以下の情報が含まれます：</p>
+        <ul>
+            <li>ブラウザの種類とバージョン</li>
+            <li>オペレーティングシステム</li>
+            <li>参照URL</li>
+            <li>IPアドレス</li>
+            <li>訪問ページ</li>
+            <li>訪問日時</li>
+        </ul>
+        
+        <h3>クッキーと追跡技術</h3>
+        <p>当社は、クッキーおよび類似の追跡技術を使用して、サービス上のアクティビティを追跡し、特定の情報を保存します。ブラウザに、すべてのクッキーを拒否するよう指示したり、クッキーが送信されるときに表示するよう指示したりできます。</p>
+        
+        <h2>当社がお客様の情報を使用する方法</h2>
+        <p>当社は、収集した情報を以下のさまざまな目的に使用します：</p>
+        <ul>
+            <li>サービスの提供および維持</li>
+            <li>サービスの変更についてお客様に通知する</li>
+            <li>インタラクティブ機能への参加を可能にする</li>
+            <li>カスタマーサポートの提供</li>
+            <li>サービスを改善するための分析または価値ある情報の収集</li>
+            <li>サービスの使用状況の監視</li>
+            <li>技術的な問題の検出、防止、および対処</li>
+            <li>お客様が情報を提供するその他の目的を履行する</li>
+        </ul>
+        
+        <h2>情報の共有および開示</h2>
+        <p>当社は、以下の状況でお客様の情報を共有することがあります：</p>
+        <ul>
+            <li>サービスの使用状況を監視および分析するためのサービスプロバイダーとの間</li>
+            <li>合併や買収などの事業譲渡の場合</li>
+            <li>お客様の同意がある場合</li>
+            <li>法的義務を遵守するため</li>
+            <li>当社の権利および財産を保護および防御するため</li>
+            <li>不正行為を防止または調査するため</li>
+        </ul>
+        
+        <h2>データのセキュリティ</h2>
+        <p>当社は、お客様の個人情報が不正アクセス、改変、開示、または破壊されないように適切なセキュリティ対策を実施しています。ただし、インターネット経由の送信や電子ストレージの方法は100％安全ではありません。</p>
+        
+        <h2>データの保持</h2>
+        <p>当社は、本プライバシーポリシーに記載された目的を達成するために必要な期間のみ、お客様の個人情報を保持します。ただし、法律でより長い保持期間が要求または許可されている場合はこの限りではありません。</p>
+        
+        <h2>お客様の権利</h2>
+        <p>お客様の所在地によっては、お客様の個人情報に関して以下の権利を有する場合があります：</p>
+        <ul>
+            <li>情報へのアクセス、更新、または削除の権利</li>
+            <li>訂正の権利</li>
+            <li>処理に異議を唱える権利</li>
+            <li>データの携帯の権利</li>
+            <li>同意を撤回する権利</li>
+        </ul>
+        
+        <h2>未成年者のプライバシー</h2>
+        <p>当社のサービスは、13歳未満の未成年者による使用を意図していません。当社は、13歳未満の未成年者から個人情報を故意に収集することはありません。13歳未満の未成年者から個人情報を収集したことに気づいた場合、当社はその情報を削除するための措置を講じます。</p>
+        
+        <h2>本プライバシーポリシーの変更</h2>
+        <p>当社は、随時プライバシーポリシーを更新することがあります。重要な変更がある場合は、新しいプライバシーポリシーを本ページに掲載し、「最終更新日」の日付を更新することにより、お客様にお知らせします。</p>
+        
+        <h2>お問い合わせ</h2>
+        <p>本プライバシーポリシーについてご質問がある場合は、以下の連絡先までお問い合わせください：</p>
+        <div class="contact-info">
+            <p>メールアドレス：521401@qq.com</p>
+            <p>住所：中国広州市天河区海珠広場18番地</p>
+        </div>
+    </div>
+
+    <!-- Korean version -->
+    <div id="ko" class="lang-content hidden">
+        <h1>AutoImage 개인정보 보호정책</h1>
+        
+        <p class="last-updated">최종 업데이트: 2025-08-25</p>
+        
+        <h2>AutoImage 소개</h2>
+        <p>AutoImage는 귀하의 프라이버시를 존중하며 귀하의 개인정보 보호에 최선을 다하고 있습니다. 본 개인정보 보호정책은 당사의 서비스, 웹사이트, 애플리케이션 및 제품(총칭하여 "서비스")을 이용할 때 당사가 귀하의 정보를 수집, 사용, 공개 및 보호하는 방법을 설명합니다.</p>
+        <p>당사의 서비스에 액세스하거나 이용함으로써 귀하는 본 개인정보 보호정책에 설명된 대로 귀하의 정보 수집, 사용 및 공개에 동의하는 것입니다.</p>
+        
+        <h2>당사가 수집하는 정보</h2>
+        
+        <h3>개인정보</h3>
+        <p>당사는 귀하와 연락하거나 귀하를 식별하는 데 사용할 수 있는 개인 식별 정보를 수집할 수 있습니다. 여기에는 다음이 포함됩니다:</p>
+        <ul>
+            <li>이름: Xigk</li>
+            <li>이메일 주소: 521401@qq.com</li>
+            <li>주소: 중국 광동성 광저우시 톈허구 하이주광장 18번지</li>
+        </ul>
+        
+        <h3>비개인정보</h3>
+        <p>당사는 개인을 식별할 수 없는 정보도 수집할 수 있습니다. 여기에는 다음이 포함됩니다:</p>
+        <ul>
+            <li>브라우저 유형 및 버전</li>
+            <li>운영 체제</li>
+            <li>참조 URL</li>
+            <li>IP 주소</li>
+            <li>방문 페이지</li>
+            <li>방문 시간 및 날짜</li>
+        </ul>
+        
+        <h3>쿠키 및 추적 기술</h3>
+        <p>당사는 쿠키 및 유사한 추적 기술을 사용하여 서비스에서의 활동을 추적하고 특정 정보를 저장합니다. 브라우저에 모든 쿠키를 거부하거나 쿠키가 전송될 때 표시하도록 지시할 수 있습니다.</p>
+        
+        <h2>당사가 귀하의 정보를 사용하는 방법</h2>
+        <p>당사는 수집한 정보를 다음과 같은 다양한 목적으로 사용합니다:</p>
+        <ul>
+            <li>서비스 제공 및 유지</li>
+            <li>서비스 변경 사항을 귀하에게 알림</li>
+            <li>대화형 기능 참여 허용</li>
+            <li>고객 지원 제공</li>
+            <li>서비스 개선을 위한 분석 또는 유용한 정보 수집</li>
+            <li>서비스 사용 현황 모니터링</li>
+            <li>기술 문제 감지, 예방 및 해결</li>
+            <li>귀하가 제공한 정보의 기타 목적 이행</li>
+        </ul>
+        
+        <h2>정보 공유 및 공개</h2>
+        <p>당사는 다음과 같은 상황에서 귀하의 정보를 공유할 수 있습니다:</p>
+        <ul>
+            <li>서비스 사용 현황을 모니터링하고 분석하기 위한 서비스 제공업체와</li>
+            <li>합병 또는 인수와 같은 사업 이전의 경우</li>
+            <li>귀하의 동의가 있는 경우</li>
+            <li>법적 의무를 준수하기 위해</li>
+            <li>당사의 권리와 재산을 보호하고 방어하기 위해</li>
+            <li>부당 행위를 예방하거나 조사하기 위해</li>
+        </ul>
+        
+        <h2>데이터 보안</h2>
+        <p>당사는 귀하의 개인정보가 무단 액세스, 변경, 공개 또는 파괴되지 않도록 적절한 보안 조치를 구현합니다. 그러나 인터넷을 통한 전송이나 전자 저장 방법은 100% 안전하지 않습니다.</p>
+        
+        <h2>데이터 보관</h2>
+        <p>당사는 본 개인정보 보호정책에 명시된 목적을 이행하는 데 필요한 기간 동안에만 귀하의 개인정보를 보관합니다. 다만, 법률에서 더 긴 보관 기간이 요구되거나 허용되는 경우는 예외로 합니다.</p>
+        
+        <h2>귀하의 권리</h2>
+        <p>귀하의 거주 국가에 따라 귀하의 개인정보와 관련하여 다음과 같은 권리를 가질 수 있습니다:</p>
+        <ul>
+            <li>정보에 액세스, 업데이트 또는 삭제할 권리</li>
+            <li>정정할 권리</li>
+            <li>처리에 이의를 제기할 권리</li>
+            <li>데이터 이동성 권리</li>
+            <li>동의를 철회할 권리</li>
+        </ul>
+        
+        <h2>아동의 개인정보</h2>
+        <p>당사의 서비스는 13세 미만의 아동의 사용을 위한 것이 아닙니다. 당사는 13세 미만의 아동으로부터 개인정보를 고의로 수집하지 않습니다. 13세 미만의 아동으로부터 개인정보를 수집했다는 사실을 알게 된 경우, 당사는 해당 정보를 삭제하기 위한 조치를 취할 것입니다.</p>
+        
+        <h2>본 개인정보 보호정책의 변경</h2>
+        <p>당사는 수시로 개인정보 보호정책을 업데이트할 수 있습니다. 중요한 변경 사항이 있는 경우, 새로운 개인정보 보호정책을 본 페이지에 게시하고 "최종 업데이트" 날짜를 업데이트하여 귀하에게 통지할 것입니다.</p>
+        
+        <h2>문의하기</h2>
+        <p>본 개인정보 보호정책에 대해 질문이 있는 경우 다음 주소로 문의해 주십시오:</p>
+        <div class="contact-info">
+            <p>이메일: 521401@qq.com</p>
+            <p>주소: 중국 광동성 광저우시 톈허구 하이주광장 18번지</p>
+        </div>
+    </div>
+
+    <!-- Spanish version -->
+    <div id="es" class="lang-content hidden">
+        <h1>Política de privacidad de AutoImage</h1>
+        
+        <p class="last-updated">Última actualización: 2025-08-25</p>
+        
+        <h2>Introducción a AutoImage</h2>
+        <p>AutoImage respeta su privacidad y se compromete a proteger su información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y salvaguardamos su información cuando utiliza nuestros servicios, sitios web, aplicaciones y productos (colectivamente, los "Servicios").</p>
+        <p>Al acceder o utilizar nuestros Servicios, usted acepta la recopilación, uso y divulgación de su información según se describe en esta Política de Privacidad.</p>
+        
+        <h2>Información que recopilamos</h2>
+        
+        <h3>Información personal</h3>
+        <p>Podemos recopilar información de identificación personal que pueda utilizarse para contactarlo o identificarlo, incluyendo:</p>
+        <ul>
+            <li>Nombre: Xigk</li>
+            <li>Dirección de correo electrónico: 521401@qq.com</li>
+            <li>Dirección: N.º 18, Haizhuguangc, Distrito de Tianhe, Guangzhou, China</li>
+        </ul>
+        
+        <h3>Información no personal</h3>
+        <p>También podemos recopilar información no identificable personalmente, incluyendo:</p>
+        <ul>
+            <li>Tipo y versión del navegador</li>
+            <li>Sistema operativo</li>
+            <li>URL de referencia</li>
+            <li>Direcciones IP</li>
+            <li>Páginas visitadas</li>
+            <li>Hora y fecha de las visitas</li>
+        </ul>
+        
+        <h3>Cookies y tecnologías de seguimiento</h3>
+        <p>Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestros Servicios y almacenar cierta información. Puede indicar a su navegador que rechace todas las cookies o que indique cuándo se está enviando una cookie.</p>
+        
+        <h2>Cómo utilizamos su información</h2>
+        <p>Utilizamos la información que recopilamos para diversos propósitos:</p>
+        <ul>
+            <li>Para proporcionar y mantener nuestros Servicios</li>
+            <li>Para notificarle sobre cambios en nuestros Servicios</li>
+            <li>Para permitirle participar en funciones interactivas</li>
+            <li>Para proporcionar soporte al cliente</li>
+            <li>Para recopilar análisis o información valiosa para mejorar nuestros Servicios</li>
+            <li>Para monitorear el uso de nuestros Servicios</li>
+            <li>Para detectar, prevenir y abordar problemas técnicos</li>
+            <li>Para cumplir cualquier otro propósito para el cual usted proporciona información</li>
+        </ul>
+        
+        <h2>Compartición y divulgación de información</h2>
+        <p>Podemos compartir su información en las siguientes situaciones:</p>
+        <ul>
+            <li>Con proveedores de servicios para monitorear y analizar el uso de nuestros Servicios</li>
+            <li>Para transferencias comerciales, como una fusión o adquisición</li>
+            <li>Con su consentimiento</li>
+            <li>Para cumplir con obligaciones legales</li>
+            <li>Para proteger y defender nuestros derechos y propiedad</li>
+            <li>Para prevenir o investigar conductas indebidas</li>
+        </ul>
+        
+        <h2>Seguridad de los datos</h2>
+        <p>Implementamos medidas de seguridad apropiadas para proteger contra el acceso no autorizado, alteración, divulgación o destrucción de su información personal. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro.</p>
+        
+        <h2>Retención de datos</h2>
+        <p>Conservamos su información personal solo durante el tiempo necesario para cumplir con los propósitos descritos en esta Política de Privacidad, a menos que un período de retención más largo sea requerido o permitido por ley.</p>
+        
+        <h2>Sus derechos</h2>
+        <p>Dependiendo de su ubicación, puede tener los siguientes derechos con respecto a su información personal:</p>
+        <ul>
+            <li>El derecho de acceder, actualizar o eliminar su información</li>
+            <li>El derecho a la rectificación</li>
+            <li>El derecho a oponerse al procesamiento</li>
+            <li>El derecho a la portabilidad de datos</li>
+            <li>El derecho a retirar el consentimiento</li>
+        </ul>
+        
+        <h2>Privacidad de los niños</h2>
+        <p>Nuestros Servicios no están destinados a ser utilizados por niños menores de 13 años. No recopilamos conscientemente información personal de niños menores de 13 años. Si nos enteramos de que hemos recopilado información personal de un niño menor de 13 años, tomaremos medidas para eliminar dicha información.</p>
+        
+        <h2>Cambios en esta Política de Privacidad</h2>
+        <p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de "Última actualización".</p>
+        
+        <h2>Contáctenos</h2>
+        <p>Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en:</p>
+        <div class="contact-info">
+            <p>Correo electrónico: 521401@qq.com</p>
+            <p>Dirección: N.º 18, Haizhuguangc, Distrito de Tianhe, Guangzhou, China</p>
+        </div>
+    </div>
+
+    <!-- French version -->
+    <div id="fr" class="lang-content hidden">
+        <h1>Politique de confidentialité d'AutoImage</h1>
+        
+        <p class="last-updated">Dernière mise à jour : 2025-08-25</p>
+        
+        <h2>Introduction à AutoImage</h2>
+        <p>AutoImage respecte votre vie privée et s'engage à protéger vos informations personnelles. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez nos services, sites web, applications et produits (collectivement, les « Services »).</p>
+        <p>En accédant ou en utilisant nos Services, vous consentez à la collecte, l'utilisation et la divulgation de vos informations telles que décrites dans cette Politique de Confidentialité.</p>
+        
+        <h2>Informations que nous collectons</h2>
+        
+        <h3>Informations personnelles</h3>
+        <p>Nous pouvons collecter des informations personnelles identifiables qui peuvent être utilisées pour vous contacter ou vous identifier, notamment :</p>
+        <ul>
+            <li>Nom : Xigk</li>
+            <li>Adresse e-mail : 521401@qq.com</li>
+            <li>Adresse : N°18, Haizhuguangc, district de Tianhe, Guangzhou, Chine</li>
+        </ul>
+        
+        <h3>Informations non personnelles</h3>
+        <p>Nous pouvons également collecter des informations non personnellement identifiables, notamment :</p>
+        <ul>
+            <li>Type et version du navigateur</li>
+            <li>Système d'exploitation</li>
+            <li>URL de référence</li>
+            <li>Adresses IP</li>
+            <li>Pages visitées</li>
+            <li>Heure et date des visites</li>
+        </ul>
+        
+        <h3>Cookies et technologies de suivi</h3>
+        <p>Nous utilisons des cookies et des technologies de suivi similaires pour suivre l'activité sur nos Services et stocker certaines informations. Vous pouvez demander à votre navigateur de refuser tous les cookies ou d'indiquer quand un cookie est envoyé.</p>
+        
+        <h2>Comment nous utilisons vos informations</h2>
+        <p>Nous utilisons les informations que nous collectons à diverses fins :</p>
+        <ul>
+            <li>Pour fournir et maintenir nos Services</li>
+            <li>Pour vous informer des changements apportés à nos Services</li>
+            <li>Pour vous permettre de participer à des fonctionnalités interactives</li>
+            <li>Pour fournir un support client</li>
+            <li>Pour recueillir des analyses ou des informations précieuses afin d'améliorer nos Services</li>
+            <li>Pour surveiller l'utilisation de nos Services</li>
+            <li>Pour détecter, prévenir et résoudre des problèmes techniques</li>
+            <li>Pour remplir toute autre finalité pour laquelle vous fournissez des informations</li>
+        </ul>
+        
+        <h2>Partage et divulgation des informations</h2>
+        <p>Nous pouvons partager vos informations dans les situations suivantes :</p>
+        <ul>
+            <li>Avec des fournisseurs de services pour surveiller et analyser l'utilisation de nos Services</li>
+            <li>Pour des transferts d'entreprise, tels qu'une fusion ou une acquisition</li>
+            <li>Avec votre consentement</li>
+            <li>Pour se conformer aux obligations légales</li>
+            <li>Pour protéger et défendre nos droits et notre propriété</li>
+            <li>Pour prévenir ou enquêter sur des actes répréhensibles</li>
+        </ul>
+        
+        <h2>Sécurité des données</h2>
+        <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger contre tout accès non autorisé, altération, divulgation ou destruction de vos informations personnelles. Cependant, aucune méthode de transmission sur Internet ou de stockage électronique n'est sécurisée à 100%.</p>
+        
+        <h2>Conservation des données</h2>
+        <p>Nous conservons vos informations personnelles uniquement aussi longtemps que nécessaire pour remplir les objectifs décrits dans cette Politique de Confidentialité, sauf si une période de conservation plus longue est requise ou autorisée par la loi.</p>
+        
+        <h2>Vos droits</h2>
+        <p>Selon votre lieu de résidence, vous pouvez avoir les droits suivants concernant vos informations personnelles :</p>
+        <ul>
+            <li>Le droit d'accéder, de mettre à jour ou de supprimer vos informations</li>
+            <li>Le droit à la rectification</li>
+            <li>Le droit de vous opposer au traitement</li>
+            <li>Le droit à la portabilité des données</li>
+            <li>Le droit de retirer votre consentement</li>
+        </ul>
+        
+        <h2>Vie privée des enfants</h2>
+        <p>Nos Services ne sont pas destinés à être utilisés par des enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si nous prenons conscience que nous avons collecté des informations personnelles auprès d'un enfant de moins de 13 ans, nous prendrons des mesures pour supprimer ces informations.</p>
+        
+        <h2>Modifications de cette Politique de Confidentialité</h2>
+        <p>Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page et en mettant à jour la date de « Dernière mise à jour ».</p>
+        
+        <h2>Nous contacter</h2>
+        <p>Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :</p>
+        <div class="contact-info">
+            <p>E-mail : 521401@qq.com</p>
+            <p>Adresse : N°18, Haizhuguangc, district de Tianhe, Guangzhou, Chine</p>
+        </div>
+    </div>
+
+    <!-- German version -->
+    <div id="de" class="lang-content hidden">
+        <h1>AutoImage Datenschutzrichtlinie</h1>
+        
+        <p class="last-updated">Zuletzt aktualisiert: 2025-08-25</p>
+        
+        <h2>AutoImage Einführung</h2>
+        <p>AutoImage respektiert Ihre Privatsphäre und verpflichtet sich zum Schutz Ihrer persönlichen Daten. Diese Datenschutzrichtlinie erläutert, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Dienste, Websites, Anwendungen und Produkte nutzen (zusammenfassend die "Dienste").</p>
+        <p>Durch den Zugriff auf oder die Nutzung unserer Dienste stimmen Sie der Erhebung, Verwendung und Offenlegung Ihrer Informationen gemäß dieser Datenschutzrichtlinie zu.</p>
+        
+        <h2>Informationen, die wir sammeln</h2>
+        
+        <h3>Persönliche Informationen</h3>
+        <p>Wir können personenbezogene Daten sammeln, die zur Kontaktaufnahme mit Ihnen oder zur Identifizierung Ihrer Person verwendet werden können, darunter:</p>
+        <ul>
+            <li>Name: Xigk</li>
+            <li>E-Mail-Adresse: 521401@qq.com</li>
+            <li>Adresse: China Guangzhou tianhequ haizhuguangc Nr. 18</li>
+        </ul>
+        
+        <h3>Nicht-personenbezogene Informationen</h3>
+        <p>Wir können auch nicht-personenbezogene Daten sammeln, darunter:</p>
+        <ul>
+            <li>Browsertyp und -version</li>
+            <li>Betriebssystem</li>
+            <li>Verweisende URLs</li>
+            <li>IP-Adressen</li>
+            <li>Besuchte Seiten</li>
+            <li>Uhrzeit und Datum der Besuche</li>
+        </ul>
+        
+        <h3>Cookies und Tracking-Technologien</h3>
+        <p>Wir verwenden Cookies und ähnliche Tracking-Technologien, um die Aktivitäten auf unseren Diensten zu verfolgen und bestimmte Informationen zu speichern. Sie können Ihren Browser anweisen, alle Cookies abzulehnen oder anzugeben, wann ein Cookie gesendet wird.</p>
+        
+        <h2>Wie wir Ihre Informationen verwenden</h2>
+        <p>Wir verwenden die von uns gesammelten Informationen zu verschiedenen Zwecken:</p>
+        <ul>
+            <li>Zur Bereitstellung und Aufrechterhaltung unserer Dienste</li>
+            <li>Um Sie über Änderungen an unseren Diensten zu informieren</li>
+            <li>Um Ihnen die Teilnahme an interaktiven Funktionen zu ermöglichen</li>
+            <li>Zur Bereitstellung von Kundensupport</li>
+            <li>Zum Sammeln von Analysen oder wertvollen Informationen zur Verbesserung unserer Dienste</li>
+            <li>Zur Überwachung der Nutzung unserer Dienste</li>
+            <li>Zur Erkennung, Verhinderung und Behebung technischer Probleme</li>
+            <li>Zur Erfüllung anderer Zwecke, für die Sie Informationen bereitstellen</li>
+        </ul>
+        
+        <h2>Informationsaustausch und -weitergabe</h2>
+        <p>Wir können Ihre Informationen in folgenden Situationen weitergeben:</p>
+        <ul>
+            <li>Mit Dienstanbietern zur Überwachung und Analyse der Nutzung unserer Dienste</li>
+            <li>Für Unternehmensübertragungen wie Fusionen oder Übernahmen</li>
+            <li>Mit Ihrer Zustimmung</li>
+            <li>Zur Einhaltung gesetzlicher Verpflichtungen</li>
+            <li>Zum Schutz und zur Verteidigung unserer Rechte und unseres Eigentums</li>
+            <li>Zur Verhinderung oder Untersuchung von Fehlverhalten</li>
+        </ul>
+        
+        <h2>Datensicherheit</h2>
+        <p>Wir implementieren angemessene Sicherheitsmaßnahmen, um vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung Ihrer persönlichen Daten zu schützen. Allerdings ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung zu 100% sicher.</p>
+        
+        <h2>Datenaufbewahrung</h2>
+        <p>Wir bewahren Ihre persönlichen Daten nur so lange auf, wie es zur Erfüllung der in dieser Datenschutzrichtlinie dargelegten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zulässig.</p>
+        
+        <h2>Ihre Rechte</h2>
+        <p>Abhängig von Ihrem Standort können Sie die folgenden Rechte in Bezug auf Ihre personenbezogenen Daten haben:</p>
+        <ul>
+            <li>Das Recht auf Zugang, Aktualisierung oder Löschung Ihrer Daten</li>
+            <li>Das Recht auf Berichtigung</li>
+            <li>Das Recht, der Verarbeitung zu widersprechen</li>
+            <li>Das Recht auf Datenübertragbarkeit</li>
+            <li>Das Recht, die Einwilligung zu widerrufen</li>
+        </ul>
+        
+        <h2>Privatsphäre von Kindern</h2>
+        <p>Unsere Dienste sind nicht für die Nutzung durch Kinder unter 13 Jahren bestimmt. Wir sammeln wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Falls uns bekannt wird, dass wir persönliche Daten von einem Kind unter 13 Jahren gesammelt haben, ergreifen wir Maßnahmen zur Löschung dieser Daten.</p>
+        
+        <h2>Änderungen dieser Datenschutzrichtlinie</h2>
+        <p>Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen und das Datum der "Letzten Aktualisierung" aktualisieren.</p>
+        
+        <h2>Kontakt</h2>
+        <p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:</p>
+        <div class="contact-info">
+            <p>E-Mail: 521401@qq.com</p>
+            <p>Adresse: China Guangzhou tianhequ haizhuguangc Nr. 18</p>
+        </div>
+    </div>
+
+    <!-- Russian version -->
+    <div id="ru" class="lang-content hidden">
+        <h1>Политика конфиденциальности AutoImage</h1>
+        
+        <p class="last-updated">Последнее обновление: 2025-08-25</p>
+        
+        <h2>Введение в AutoImage</h2>
+        <p>AutoImage уважает вашу конфиденциальность и стремится защищать вашу личную информацию. Настоящая Политика конфиденциальности объясняет, как мы собираем, используем, раскрываем и защищаем вашу информацию при использовании наших сервисов, веб-сайтов, приложений и продуктов (совместно именуемых «Сервисы»).</p>
+        <p>Осуществляя доступ или используя наши Сервисы, вы даете согласие на сбор, использование и раскрытие вашей информации, как описано в настоящей Политике конфиденциальности.</p>
+        
+        <h2>Информация, которую мы собираем</h2>
+        
+        <h3>Персональная информация</h3>
+        <p>Мы можем собирать персональные данные, которые могут быть использованы для связи с вами или идентификации вашей личности, включая:</p>
+        <ul>
+            <li>Имя: Xigk</li>
+            <li>Адрес электронной почты: 521401@qq.com</li>
+            <li>Адрес: Китай, Гуанджоу, район Тяньхэ, хаузугуан, д. 18</li>
+        </ul>
+        
+        <h3>Неперсональная информация</h3>
+        <p>Мы также можем собирать информацию, не позволяющую идентифицировать личность, включая:</p>
+        <ul>
+            <li>Тип и версия браузера</li>
+            <li>Операционная система</li>
+            <li>Ссылающиеся URL-адреса</li>
+            <li>IP-адреса</li>
+            <li>Посещенные страницы</li>
+            <li>Время и дата посещений</li>
+        </ul>
+        
+        <h3>Файлы Cookie и технологии отслеживания</h3>
+        <p>Мы используем файлы cookie и аналогичные технологии отслеживания для мониторинга активности в наших Сервисах и хранения определенной информации. Вы можете указать своему браузеру отклонять все файлы cookie или указывать, когда файл cookie отправляется.</p>
+        
+        <h2>Как мы используем вашу информацию</h2>
+        <p>Мы используем собранную информацию для различных целей:</p>
+        <ul>
+            <li>Для предоставления и поддержания наших Сервисов</li>
+            <li>Для уведомления вас об изменениях в наших Сервисах</li>
+            <li>Чтобы позволить вам участвовать в интерактивных функциях</li>
+            <li>Для предоставления клиентской поддержки</li>
+            <li>Для сбора аналитики или ценной информации для улучшения наших Сервисов</li>
+            <li>Для мониторинга использования наших Сервисов</li>
+            <li>Для обнаружения, предотвращения и устранения технических проблем</li>
+            <li>Для выполнения любых других целей, для которых вы предоставляете информацию</li>
+        </ul>
+        
+        <h2>Обмен и раскрытие информации</h2>
+        <p>Мы можем делиться вашей информацией в следующих ситуациях:</p>
+        <ul>
+            <li>С поставщиками услуг для мониторинга и анализа использования наших Сервисов</li>
+            <li>Для передачи бизнеса, такой как слияние или поглощение</li>
+            <li>С вашего согласия</li>
+            <li>Для соблюдения правовых обязательств</li>
+            <li>Для защиты и отстаивания наших прав и имущества</li>
+            <li>Для предотвращения или расследования неправомерных действий</li>
+        </ul>
+        
+        <h2>Безопасность данных</h2>
+        <p>Мы реализуем соответствующие меры безопасности для защиты от несанкционированного доступа, изменения, раскрытия или уничтожения вашей персональной информации. Однако ни один метод передачи через Интернет или электронного хранения не является на 100% безопасным.</p>
+        
+        <h2>Хранение данных</h2>
+        <p>Мы храним вашу персональную информацию только в течение времени, необходимого для выполнения целей, изложенных в настоящей Политике конфиденциальности, если более длительный срок хранения не требуется или не разрешен законом.</p>
+        
+        <h2>Ваши права</h2>
+        <p>В зависимости от вашего местоположения вы можете иметь следующие права в отношении вашей персональной информации:</p>
+        <ul>
+            <li>Право на доступ, обновление или удаление вашей информации</li>
+            <li>Право на исправление</li>
+            <li>Право на возражение против обработки</li>
+            <li>Право на переносимость данных</li>
+            <li>Право на отзыв согласия</li>
+        </ul>
+        
+        <h2>Конфиденциальность детей</h2>
+        <p>Наши Сервисы не предназначены для использования детьми младше 13 лет. Мы сознательно не собираем персональную информацию от детей младше 13 лет. Если мы узнаем, что мы собрали персональную информацию от ребенка младше 13 лет, мы примем меры для удаления такой информации.</p>
+        
+        <h2>Изменения в настоящей Политике конфиденциальности</h2>
+        <p>Мы можем время от времени обновлять нашу Политику конфиденциальности. Мы уведомим вас о любых изменениях, разместив новую Политику конфиденциальности на этой странице и обновив дату «Последнее обновление».</p>
+        
+        <h2>Связаться с нами</h2>
+        <p>Если у вас есть вопросы о настоящей Политике конфиденциальности, пожалуйста, свяжитесь с нами по адресу:</p>
+        <div class="contact-info">
+            <p>Электронная почта: 521401@qq.com</p>
+            <p>Адрес: Китай, Гуанджоу, район Тяньхэ, хаузугуан, д. 18</p>
+        </div>
+    </div>
+
+    <!-- Portuguese version -->
+    <div id="pt" class="lang-content hidden">
+        <h1>Política de Privacidade do AutoImage</h1>
+        
+        <p class="last-updated">Última atualização: 2025-08-25</p>
+        
+        <h2>Introdução ao AutoImage</h2>
+        <p>O AutoImage respeita a sua privacidade e está comprometido em proteger as suas informações pessoais. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e salvaguardamos as suas informações quando utiliza os nossos serviços, websites, aplicações e produtos (coletivamente, os "Serviços").</p>
+        <p>Ao aceder ou utilizar os nossos Serviços, consente na recolha, utilização e divulgação das suas informações conforme descrito nesta Política de Privacidade.</p>
+        
+        <h2>Informações que Recolhemos</h2>
+        
+        <h3>Informações Pessoais</h3>
+        <p>Podemos recolher informações pessoalmente identificáveis que podem ser usadas para contactar ou identificá-lo, incluindo:</p>
+        <ul>
+            <li>Nome: Xigk</li>
+            <li>Endereço de e-mail: 521401@qq.com</li>
+            <li>Endereço: China Guangzhou tianhequ haizhuguangc no. 18</li>
+        </ul>
+        
+        <h3>Informações Não Pessoais</h3>
+        <p>Também podemos recolher informações não pessoalmente identificáveis, incluindo:</p>
+        <ul>
+            <li>Tipo e versão do navegador</li>
+            <li>Sistema operativo</li>
+            <li>URLs de referência</li>
+            <li>Endereços IP</li>
+            <li>Páginas visitadas</li>
+            <li>Hora e data das visitas</li>
+        </ul>
+        
+        <h3>Cookies e Tecnologias de Rastreamento</h3>
+        <p>Utilizamos cookies e tecnologias de rastreamento semelhantes para rastrear a atividade nos nossos Serviços e armazenar certas informações. Pode instruir o seu navegador a recusar todos os cookies ou indicar quando um cookie está sendo enviado.</p>
+        
+        <h2>Como Utilizamos as Suas Informações</h2>
+        <p>Utilizamos as informações que recolhemos para vários fins:</p>
+        <ul>
+            <li>Para fornecer e manter os nossos Serviços</li>
+            <li>Para notificá-lo sobre alterações nos nossos Serviços</li>
+            <li>Para permitir que participe em recursos interativos</li>
+            <li>Para fornecer suporte ao cliente</li>
+            <li>Para reunir análises ou informações valiosas para melhorar os nossos Serviços</li>
+            <li>Para monitorizar a utilização dos nossos Serviços</li>
+            <li>Para detetar, prevenir e resolver problemas técnicos</li>
+            <li>Para cumprir qualquer outro propósito para o qual fornece informações</li>
+        </ul>
+        
+        <h2>Partilha e Divulgação de Informações</h2>
+        <p>Podemos partilhar as suas informações nas seguintes situações:</p>
+        <ul>
+            <li>Com fornecedores de serviços para monitorizar e analisar a utilização dos nossos Serviços</li>
+            <li>Para transferências de negócios, como uma fusão ou aquisição</li>
+            <li>Com o seu consentimento</li>
+            <li>Para cumprir obrigações legais</li>
+            <li>Para proteger e defender os nossos direitos e propriedade</li>
+            <li>Para prevenir ou investigar irregularidades</li>
+        </ul>
+        
+        <h2>Segurança de Dados</h2>
+        <p>Implementamos medidas de segurança adequadas para proteger contra acesso não autorizado, alteração, divulgação ou destruição das suas informações pessoais. No entanto, nenhum método de transmissão pela Internet ou armazenamento eletrónico é 100% seguro.</p>
+        
+        <h2>Retenção de Dados</h2>
+        <p>Conservamos as suas informações pessoais apenas pelo tempo necessário para cumprir os objetivos descritos nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei.</p>
+        
+        <h2>Os Seus Direitos</h2>
+        <p>Dependendo da sua localização, poderá ter os seguintes direitos relativamente às suas informações pessoais:</p>
+        <ul>
+            <li>O direito de aceder, atualizar ou eliminar as suas informações</li>
+            <li>O direito à retificação</li>
+            <li>O direito de se opor ao processamento</li>
+            <li>O direito à portabilidade dos dados</li>
+            <li>O direito de retirar o consentimento</li>
+        </ul>
+        
+        <h2>Privacidade de Crianças</h2>
+        <p>Os nossos Serviços não se destinam a ser utilizados por crianças com menos de 13 anos. Não recolhemos conscientemente informações pessoais de crianças com menos de 13 anos. Se tomarmos conhecimento de que recolhemos informações pessoais de uma criança com menos de 13 anos, tomaremos medidas para eliminar essas informações.</p>
+        
+        <h2>Alterações a Esta Política de Privacidade</h2>
+        <p>Podemos atualizar a nossa Política de Privacidade de tempos em tempos. Notificá-lo-emos de quaisquer alterações publicando a nova Política de Privacidade nesta página e atualizando a data de "Última atualização".</p>
+        
+        <h2>Contacte-nos</h2>
+        <p>Se tiver alguma dúvida sobre esta Política de Privacidade, por favor contacte-nos em:</p>
+        <div class="contact-info">
+            <p>E-mail: 521401@qq.com</p>
+            <p>Endereço: China Guangzhou tianhequ haizhuguangc no. 18</p>
+        </div>
+    </div>
+
+    <!-- Italian version -->
+    <div id="it" class="lang-content hidden">
+        <h1>Informativa sulla privacy di AutoImage</h1>
+        
+        <p class="last-updated">Ultimo aggiornamento: 2025-08-25</p>
+        
+        <h2>Introduzione ad AutoImage</h2>
+        <p>AutoImage rispetta la tua privacy e si impegna a proteggere le tue informazioni personali. Questa Informativa sulla privacy spiega come raccogliamo, utilizziamo, divulghiamo e salvaguardiamo le tue informazioni quando utilizzi i nostri servizi, siti web, applicazioni e prodotti (collettivamente, i "Servizi").</p>
+        <p>Accedendo o utilizzando i nostri Servizi, acconsenti alla raccolta, all'uso e alla divulgazione delle tue informazioni come descritto in questa Informativa sulla privacy.</p>
+        
+        <h2>Informazioni che raccogliamo</h2>
+        
+        <h3>Informazioni personali</h3>
+        <p>Potremmo raccogliere informazioni personali identificabili che possono essere utilizzate per contattarti o identificarti, tra cui:</p>
+        <ul>
+            <li>Nome: Xigk</li>
+            <li>Indirizzo email: 521401@qq.com</li>
+            <li>Indirizzo: China Guangzhou tianhequ haizhuguangc no. 18</li>
+        </ul>
+        
+        <h3>Informazioni non personali</h3>
+        <p>Potremmo anche raccogliere informazioni non personalmente identificabili tra cui:</p>
+        <ul>
+            <li>Tipo e versione del browser</li>
+            <li>Sistema operativo</li>
+            <li>URL di provenienza</li>
+            <li>Indirizzi IP</li>
+            <li>Pagine visitate</li>
+            <li>Ora e data delle visite</li>
+        </ul>
+        
+        <h3>Cookie e tecnologie di tracciamento</h3>
+        <p>Utilizziamo cookie e tecnologie di tracciamento simili per monitorare l'attività sui nostri Servizi e memorizzare determinate informazioni. Puoi istruire il tuo browser a rifiutare tutti i cookie o a indicare quando viene inviato un cookie.</p>
+        
+        <h2>Come utilizziamo le tue informazioni</h2>
+        <p>Utilizziamo le informazioni che raccogliamo per vari scopi:</p>
+        <ul>
+            <li>Per fornire e mantenere i nostri Servizi</li>
+            <li>Per informarti sui cambiamenti apportati ai nostri Servizi</li>
+            <li>Per consentirti di partecipare a funzionalità interattive</li>
+            <li>Per fornire supporto clienti</li>
+            <li>Per raccogliere analisi o informazioni preziose per migliorare i nostri Servizi</li>
+            <li>Per monitorare l'utilizzo dei nostri Servizi</li>
+            <li>Per rilevare, prevenire e risolvere problemi tecnici</li>
+            <li>Per adempiere a qualsiasi altro scopo per cui fornisci informazioni</li>
+        </ul>
+        
+        <h2>Condivisione e divulgazione delle informazioni</h2>
+        <p>Potremmo condividere le tue informazioni nelle seguenti situazioni:</p>
+        <ul>
+            <li>Con fornitori di servizi per monitorare e analizzare l'utilizzo dei nostri Servizi</li>
+            <li>Per trasferimenti aziendali, come una fusione o acquisizione</li>
+            <li>Con il tuo consenso</li>
+            <li>Per conformarci agli obblighi legali</li>
+            <li>Per proteggere e difendere i nostri diritti e la nostra proprietà</li>
+            <li>Per prevenire o indagare su comportamenti scorretti</li>
+        </ul>
+        
+        <h2>Sicurezza dei dati</h2>
+        <p>Implementiamo misure di sicurezza appropriate per proteggere da accessi non autorizzati, alterazioni, divulgazioni o distruzioni delle tue informazioni personali. Tuttavia, nessun metodo di trasmissione su Internet o di archiviazione elettronica è sicuro al 100%.</p>
+        
+        <h2>Conservazione dei dati</h2>
+        <p>Conserviamo le tue informazioni personali solo per il tempo necessario a soddisfare gli scopi delineati in questa Informativa sulla privacy, a meno che un periodo di conservazione più lungo non sia richiesto o consentito dalla legge.</p>
+        
+        <h2>I tuoi diritti</h2>
+        <p>A seconda della tua posizione, potresti avere i seguenti diritti riguardo alle tue informazioni personali:</p>
+        <ul>
+            <li>Il diritto di accedere, aggiornare o eliminare le tue informazioni</li>
+            <li>Il diritto alla rettifica</li>
+            <li>Il diritto di opporsi al trattamento</li>
+            <li>Il diritto alla portabilità dei dati</li>
+            <li>Il diritto di revocare il consenso</li>
+        </ul>
+        
+        <h2>Privacy dei minori</h2>
+        <p>I nostri Servizi non sono destinati all'uso da parte di minori di età inferiore a 13 anni. Non raccogliamo consapevolmente informazioni personali da minori di 13 anni. Se veniamo a conoscenza di aver raccolto informazioni personali da un minore di 13 anni, prenderemo provvedimenti per eliminare tali informazioni.</p>
+        
+        <h2>Modifiche alla presente Informativa sulla privacy</h2>
+        <p>Potremmo aggiornare la nostra Informativa sulla privacy di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla privacy su questa pagina e aggiornando la data di "Ultimo aggiornamento".</p>
+        
+        <h2>Contattaci</h2>
+        <p>Se hai domande su questa Informativa sulla privacy, ti preghiamo di contattarci all'indirizzo:</p>
+        <div class="contact-info">
+            <p>Email: 521401@qq.com</p>
+            <p>Indirizzo: China Guangzhou tianhequ haizhuguangc no. 18</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to detect user's language
+        function detectLanguage() {
+            // Check if user has previously selected a language
+            const savedLanguage = localStorage.getItem('preferredLanguage');
+            if (savedLanguage && document.getElementById(savedLanguage)) {
+                return savedLanguage;
+            }
+            
+            // Get browser language
+            const browserLanguage = navigator.language || navigator.userLanguage;
+            
+            // Map browser language to our supported languages
+            const languageMap = {
+                'en': 'en',
+                'en-US': 'en',
+                'en-GB': 'en',
+                'zh': 'zh-Hans',
+                'zh-CN': 'zh-Hans',
+                'zh-SG': 'zh-Hans',
+                'zh-HK': 'zh-Hant',
+                'zh-TW': 'zh-Hant',
+                'ja': 'ja',
+                'ja-JP': 'ja',
+                'ko': 'ko',
+                'ko-KR': 'ko',
+                'es': 'es',
+                'es-ES': 'es',
+                'es-MX': 'es',
+                'fr': 'fr',
+                'fr-FR': 'fr',
+                'de': 'de',
+                'de-DE': 'de',
+                'ru': 'ru',
+                'ru-RU': 'ru',
+                'pt': 'pt',
+                'pt-PT': 'pt',
+                'pt-BR': 'pt',
+                'it': 'it',
+                'it-IT': 'it'
+            };
+            
+            // Return mapped language or default to English
+            return languageMap[browserLanguage] || 'en';
+        }
+
+        // Function to change language
+        function changeLanguage(lang) {
+            // Hide all language content
+            const contents = document.querySelectorAll('.lang-content');
+            contents.forEach(content => {
+                content.classList.add('hidden');
+            });
+            
+            // Show selected language content
+            const selectedContent = document.getElementById(lang);
+            if (selectedContent) {
+                selectedContent.classList.remove('hidden');
+            }
+            
+            // Update language selector
+            document.getElementById('language-switcher').value = lang;
+            
+            // Save user's language preference
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        // Initialize language on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const userLanguage = detectLanguage();
+            changeLanguage(userLanguage);
+        });
+    </script>
 </body>
 </html>
